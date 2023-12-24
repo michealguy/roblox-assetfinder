@@ -17,7 +17,8 @@ Please replace "playername" with the player you are searching for:
     <img src="https://github.com/michealguy/roblox-assetsearcher/raw/main/images/tutorialplayername.png"/>
 <p>
 
-To run
+## Running
+To run this program simply do this:
 ```
 > node scrape
 ```
