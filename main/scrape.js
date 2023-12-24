@@ -4,8 +4,10 @@ const cheerio = require('cheerio');
 const app = express();
 const port = process.env.PORT || 5000;
 const baseUrl = 'https://www.roblox.com/library/';
-const playername = ' ' // Replace the playername
-let currentNumber = 5986210284 // Replace with the ID
+
+const playername = ' ' // Replace the playername with what you're looking for
+let currentNumber = 5986210284 // Replace the ID
+
 let checkedNumber = 0
 
 let username = [];
@@ -31,7 +33,7 @@ try {
                 checkedNumber++;
                 return;
             } else {
-                console.log('Player: ' + $(e).text() + ' ' + playername + ' ' + = FALSE' + ' ' + 'URL: ' + url); // If it finds a Dev Item
+                console.log('Player: ' + $(e).text() + ' ' + playername + ' = FALSE URL: ' + url); // If it finds a Dev Item
                 // username.push('Is <playername>: FALSE');
                 currentNumber++;
                 checkedNumber++;
