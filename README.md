@@ -13,9 +13,9 @@ Make sure to download the packages using:
 ## Setup
 
 Please replace "playername" with the player you are searching for:
-<p float="left">
-    <img src="https://github.com/michealguy/roblox-assetsearcher/raw/main/images/tutorialplayername.png"/>
-<p>
+```
+const playername = ' ' // Replace the playername with what you're looking for
+```
 
 ## Running
 To run this program simply do this:
