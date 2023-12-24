@@ -1,6 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');
+const fs = require('fs');
 const app = express();
 const port = process.env.PORT || 5000;
 const baseUrl = 'https://www.roblox.com/library/';
@@ -64,3 +65,20 @@ app.get("/scrape", (req, res) => {
 });
 
 app.listen(port, () => console.log('Server running! Server: http://localhost:5000/scrape'));
+
+function newWriteFile() { // NEW
+  fs.writeFile('./save_files/new.txt', baseUrl + currentNumber, (err) => {
+    if (err) {
+        console.log(err)
+        return;
+    }
+  });
+}
+setInterval(newWriteFile, 10000);
+
+function oldWriteFile() { // OLD
+  fs.writeFile('./save_files/old.txt', baseUrl + currentNumber, (err) => {
+    if (err) throw err;
+  });
+}
+setInterval(oldWriteFile, 15000);
