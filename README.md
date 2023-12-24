@@ -5,6 +5,11 @@ A really stupid Roblox "Asset ID Searcher", aka a web scraper made via NodeJS an
 
 You can download it from [the latest release.](https://github.com/michealguy/roblox-assetsearcher/releases/tag/v1.0)
 
+or if you are downloading from the source make sure to download the packages using:
+```
+> npm install
+```
+
 ## Setup
 
 Please replace -- not finsiehd grrr
