@@ -3,7 +3,7 @@ A (stupid) "Roblox Asset ID Searcher", aka a web scraper made via [NodeJS](https
 
 ## Installation
 
-You can download it from [the latest release here.](https://github.com/michealguy/roblox-assetsearcher/releases/tag/v1.0)
+You can download [the latest release here.](https://github.com/michealguy/roblox-assetsearcher/releases/tag/v1.0)
 
 Make sure to download the packages using:
 ```
