@@ -12,7 +12,8 @@ or if you are downloading from the source make sure to download the packages usi
 
 ## Setup
 
-Please replace -- not finsiehd grrr
+Please replace the player you are searching for:
+
 
 
 
