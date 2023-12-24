@@ -16,6 +16,10 @@ Please replace "playername" with the player you are searching for:
 ```
 const playername = ' ' // Replace the playername with what you're looking for
 ```
+and ID with the ID you want to begin searching at:
+```
+let currentNumber = 5986210284 // Replace the ID
+```
 
 ## Running
 To run this program simply do this:
