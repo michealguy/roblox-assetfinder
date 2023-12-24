@@ -4,6 +4,7 @@ const cheerio = require('cheerio');
 const app = express();
 const port = process.env.PORT || 5000;
 const baseUrl = 'https://www.roblox.com/library/';
+const playername = ' ' // Replace the playername
 let currentNumber = 5986210284 // Replace with the ID
 let checkedNumber = 0
 
@@ -23,14 +24,14 @@ try {
     if (element.length > 0) {
         // Element exists
         element.each((i, e) => {
-            if ($(e).text() === '<playername>' || $(e).text() === '@Lightning_Splash') { // If it finds <playername>
-                console.log('Player: ' + $(e).text() + ' ' + 'Is <playername>: TRUE ' + url);
-                username.push('Is <playername>: TRUE ');
+            if ($(e).text() === playername) { // If it finds <playername>
+                console.log('Player: ' + $(e).text() + ' ' + 'Is ' + playername + ': TRUE ' + url);
+                username.push('Is ' + playername + ': TRUE ');
                 username.push('URL: ' + url);
                 checkedNumber++;
                 return;
             } else {
-                console.log('Player: ' + $(e).text() + ' ' + '<playername> = FALSE' + ' ' + 'URL: ' + url); // If it finds a Dev Item
+                console.log('Player: ' + $(e).text() + ' ' + playername + ' ' + = FALSE' + ' ' + 'URL: ' + url); // If it finds a Dev Item
                 // username.push('Is <playername>: FALSE');
                 currentNumber++;
                 checkedNumber++;
