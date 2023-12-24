@@ -12,7 +12,7 @@ Make sure to download the packages using:
 
 ## Setup
 
-Please replace the player you are searching for:
+Please replace "playername" with the player you are searching for:
 
 
 
