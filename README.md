@@ -1,5 +1,5 @@
-# <img src="https://github.com/michealguy/roblox-assetsearcher/raw/main/icon.png" width="40"/> Roblox Asset ID Searcher
-A (stupid) "Roblox Asset ID Searcher", aka a web scraper made via [NodeJS](https://nodejs.org/en/download/current) and [cheerio](https://github.com/cheeriojs/cheerio). 
+# <img src="https://github.com/michealguy/roblox-assetsearcher/raw/main/icon.png" width="40"/> Roblox Asset ID Finder
+A (stupid) "Roblox Asset ID Finder", aka a web scraper made via [NodeJS](https://nodejs.org/en/download/current) and [cheerio](https://github.com/cheeriojs/cheerio). 
 
 ## Installation
 
