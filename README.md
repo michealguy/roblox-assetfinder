@@ -22,7 +22,7 @@ let currentNumber = 5986210284 // Replace the ID
 ```
 
 ## Running
-To run this program simply do this:
+To run just do this:
 ```
 > node scrape
 ```
